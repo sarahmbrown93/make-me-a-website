@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC; /* Muted tan background */
+    color: #333;
+}
+
+header {
+    background-color: #D2B48C; /* Tan color */
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #8B7D6B; /* Darker tan color */
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+.section {
+    margin: 2em 0;
+    padding: 2em;
+    border-radius: 15px;
+    background-color: #EDEADE; /* Light tan background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section.bio {
+    background-color: #F4F0E6; /* Slightly lighter tan */
+}
+
+.section.portfolio {
+    background-color: #E0D7C6; /* Slightly darker tan */
+}
+
+.section.contact {
+    background-color: #DAD0C2; /* Another shade of tan */
+}
+
+footer {
+    background-color: #8B7D6B; /* Darker tan color */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
